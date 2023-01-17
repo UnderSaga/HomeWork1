@@ -9,4 +9,6 @@ namespace HomeWork1
     public class StudentDoctorate : Student
     {
     }
+    public void ToCarryOutThesis()
+    { }
 }

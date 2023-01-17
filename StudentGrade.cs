@@ -13,5 +13,7 @@ namespace HomeWork1
         {
             department = dep;
         }
+        public void Collaborate()
+        { }
     }
 }

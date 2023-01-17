@@ -13,5 +13,9 @@ namespace HomeWork1
         {
             worker = new Worker();
         }
+        public void Manage()
+        {
+
+        }
     }
 }
