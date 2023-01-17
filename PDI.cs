@@ -8,8 +8,9 @@ namespace HomeWork1
 {
     public class PDI
     {
+
         Worker worker;
-        public Employer()
+        public PDI()
         {
             worker = new Worker();
         }
@@ -17,5 +18,6 @@ namespace HomeWork1
         { }
         public void Teach()
         { }
+
     }
 }

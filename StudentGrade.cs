@@ -8,12 +8,9 @@ namespace HomeWork1
 {
     public class StudentGrade : Student
     {
-        Department department;
-        public Worker(Department dep)
-        {
-            department = dep;
-        }
-        public void Collaborate()
+
+        public static void Collaborate()
         { }
+
     }
 }

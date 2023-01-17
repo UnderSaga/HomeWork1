@@ -8,14 +8,14 @@ namespace HomeWork1
 {
     public class PAS
     {
+
         Worker worker;
-        public Employer()
+        public PAS()
         {
             worker = new Worker();
         }
         public void Manage()
-        {
+        { }
 
-        }
     }
 }

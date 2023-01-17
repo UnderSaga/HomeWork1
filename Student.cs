@@ -8,6 +8,8 @@ namespace HomeWork1
 {
     public class Student : Person
     { 
+
         public University University { get; set; }
+
     }
 }

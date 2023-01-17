@@ -11,10 +11,6 @@ namespace HomeWork1
 
         public string StartDate { get; set; }
         public University University { get; set; }
-        Department department;
-        public Worker(Department dep)
-        {
-            department = dep;
-        }
+
     }
 }

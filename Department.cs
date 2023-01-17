@@ -6,9 +6,19 @@ using System.Threading.Tasks;
 
 namespace HomeWork1
 {
-    public abstract class Department
+    public class Department
     {
 
+        Worker worker;
+        public Department(Worker work)
+        {
+            worker = work;
+        }
+        StudentGrade studentGrade;
+        public Department(StudentGrade grade)
+        {
+            studentGrade = grade;
+        }
         public string Name { get; set; }
 
     }
