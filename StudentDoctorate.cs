@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork1
 {
-    public class Student : Person
-    { 
-        public University University { get; set; }
+    public class StudentDoctorate : Student
+    {
     }
 }

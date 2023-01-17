@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HomeWork1
 {
-    public class Department
+    public abstract class Department
     {
 
         public string Name { get; set; }

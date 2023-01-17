@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace HomeWork1
 {
-    public class Worker : Person
+    public class StudentGrade : Student
     {
-
-        public string StartDate { get; set; }
-        public University University { get; set; }
         Department department;
         public Worker(Department dep)
         {
