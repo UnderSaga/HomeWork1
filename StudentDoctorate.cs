@@ -12,7 +12,5 @@ namespace HomeWork1
         public static void ToCarryOutThesis()
         { }
 
-        public Doctor Doctor { get; set; }
-
     }
 }

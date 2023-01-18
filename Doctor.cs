@@ -12,5 +12,7 @@ namespace HomeWork1
 
         public Department Department { get; set; }
 
+        public StudentDoctorate StudentDoctorate { get; set; }
+
     }
 }
