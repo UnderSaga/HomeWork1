@@ -9,17 +9,15 @@ namespace HomeWork1
     public class Department
     {
 
+        public string Name { get; set; }
+        StudentGrade studentGrade;
         Worker worker;
-        public Department(Worker work)
+
+        public Department(Worker work, StudentGrade grade)
         {
             worker = work;
-        }
-        StudentGrade studentGrade;
-        public Department(StudentGrade grade)
-        {
             studentGrade = grade;
         }
-        public string Name { get; set; }
 
     }
 }
