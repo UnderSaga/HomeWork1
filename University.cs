@@ -9,6 +9,8 @@ namespace HomeWork1
     public class University
     {
 
+        public List<Worker> listWorker;
+        public List<Student> listStudent;
         public string Name { get; set; }
         public string City { get; set; }
 
